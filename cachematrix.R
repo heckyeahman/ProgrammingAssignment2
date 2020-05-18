@@ -1,6 +1,6 @@
 ## These functions evaluate a matrix, cache the value of the inverse, and report it.
 
-## makeCacheMatrix creates a matrix that will set and get the value of a matrix. Afterwards, it will set
+## makeCacheMatrix will set and get the value of a matrix. Afterwards, it will set
 ## and get the value of the inverse of that matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
